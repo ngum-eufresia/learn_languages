@@ -1,0 +1,399 @@
+
+@font-face {
+    font-family: lato;
+    src: url('fonts-6/Lato-Light.ttf');
+}
+@font-face {
+    font-family: dubai;
+    src: url('fonts-6/Dubai-Bold.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: lato;
+
+}
+
+.landing-page{
+   
+    background-image: url('images/Mask\ Group\ 1@2x.png');
+    /* url('images/Mask\ Group\ 1@2x.png'); */
+    /* background-image: url('images/Path\ 7.svg'); */
+    background-repeat: no-repeat;
+    /* width: 100%; */
+}
+.hero-section{
+       
+    background-image: url('images/Path 7.svg');
+    /* url('images/Mask\ Group\ 1@2x.png'); */
+    /* background-image: url('images/Path\ 7.svg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    /* width: 100%; */
+}
+.fa-bars{
+    color: white;
+}
+.start-but{
+    background-color: white;
+    font-weight: 1000;
+    font-size: 12px;
+    color: #03DECF;
+    border-color: #03DECF;
+    line-height: 17px;
+    
+    
+}
+.page-heading{
+    font-family: dubai;
+    font-weight: bolder;
+    font-size: 65px;
+    color: #03DECF;
+    opacity: 1;
+    line-height: 90px;
+   
+    
+}
+.trans-text{
+    color: #EBF2F2;
+    font-size: 18px;
+    font-weight: 100;
+}
+.nav-link {
+/* color:white; */
+   color: #F2EAEA;
+   font-weight: 800;
+   font-size: 13px;
+
+
+}
+.start-today-but{
+    background-color: #FF0000; 
+    height: 48px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    
+
+}
+.school-boys{
+  margin-top: 18px;
+}
+.review{
+    margin-top: 180px;
+    padding-bottom: 110px;
+}
+.chats{
+  
+    color:#DBE1E6;
+    font-size: 60px;  
+
+}
+.message{
+    position: relative;
+    right: -39px;
+    top: 92px;
+}
+.comment{
+    position: relative;
+    right: -7px;
+    top: 140px;
+
+
+}
+.learning-terms{
+  background-image: url('images/Path\ 8.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+    
+}
+.sms{  
+    position: relative;
+    right: -4px;
+    top: 53px;
+
+}
+.menu-but{
+    color: white !important;
+}
+.sec-head{
+    font-family: dubai;
+    color:#03DECF;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.lorem{
+    font-weight: 300;
+   
+    font-size: 18px;
+}
+.programs-card,
+.learn-cards{
+    height: 290px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    opacity: 1;
+}
+.path1268-img{
+    width: 60px;
+}
+.learn-card-title{
+    color:#0043A8;
+    font-weight: bold;
+    font-size: 24px;
+}
+.learn-card-text{
+    
+    font-size: 16px;
+    
+
+}
+.learn-card-body{
+    padding-right: 15px;
+    padding-left: 23px;
+
+}
+.guide{
+height: 596px;
+background-color:#04d4e9;
+border: 1px solid #00000000;
+opacity: 1;
+}
+.new-lang{
+  position: relative;
+  right: -307px;
+  top: 62px;
+  color: white;
+  font-weight: bolder;
+  font-size: 36px;
+
+}
+.cameroon-flag{
+  position:relative;
+  left: 301px;
+  bottom: 151px;
+
+
+}
+.eswatini-flag{
+  position:relative;
+  left: 270px;
+  bottom: 111px;
+
+
+}
+
+.congo-flag{
+  position:relative;
+  left: 13px;
+  bottom: 321px;
+}
+
+
+.central-african-flag{
+  position:relative;
+  left: 864px;
+  bottom: 408px;
+}
+.flag{
+  width: 71px;
+  
+}
+.country-name{
+width: 231px;
+height: 54px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-45)/20px Lato;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal bold 45px/20px Lato;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 0.25;
+}
+
+
+.programs{
+  background-image: url('images/Path\ 1262.svg');
+}
+  .programs-card{
+    
+
+  }
+.program-info{
+font-size: 7px;
+text-align: left;
+font-weight: bold;
+letter-spacing: 0px;
+color: #0043A8;
+opacity: 1;
+}
+.program-info-text{
+  font-size: 13.5px;
+}
+.fa-arrow-right{
+  background: #03DECF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 10px;
+}
+#baby-program,
+#intro-program{
+  margin-top: 0px;
+}
+.intro-text{
+
+/* UI Properties */
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  color: #03DECF;
+  opacity: 1;
+
+}
+.programs-heading{
+  font-weight: bold;
+  text-align: left;
+  font-size: 35px;
+  color: #03DECF;
+  opacity: 1;
+
+}
+.trial{
+  width: 1120px;
+  height: 150px;
+  background: var(--unnamed-color-006ec5) 0% 0% no-repeat padding-box;
+  background: #006EC5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px)  {
+  .learn-cards {
+    margin-left: 17px;
+    margin-right: 79px;
+    width: 234px;
+   
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .learning-terms {
+    background-image: none;
+   
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .start-but {
+    font-size: 12px;
+    font-weight:bolder;
+     margin-right: 23px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .page-heading{
+    font-size: 60px;
+    font-weight:bolder;
+   
+  }
+}
+@media only screen and (max-width: 992px) {
+  .page-heading{
+    font-size: 70px;
+    font-weight:bolder;
+   
+  }
+}
+  @media only screen and (max-width: 768px) {
+  .page-heading{
+    font-size: 65px;
+    font-weight:bolder;
+   
+  }
+}
+@media only screen and (max-width: 992px) {
+  .start-today-but{
+    font-weight: 700;
+    margin-top: 40px ;
+    height: 60px;
+    
+  }
+}
+@media only screen and (max-width: 992px) {
+  .start-today-but{
+    font-size: 35px;
+    font-weight: 700;
+    /* margin-top: 40px ; */
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .hero-section{
+    background-image: none;
+    
+  }
+}
+/* @media only screen and (max-width: 992px) {
+  .landing-page{
+    background-image: ;
+    
+  } */
+/* } */
+@media only screen and (max-width: 992px) {
+  .review{
+    padding-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .school-boys{
+    margin-top: -56px;
+    width: 735px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .school-boys{
+    margin-top: 0px;
+    width: 100%;
+    
+}
+}
+@media only screen and (max-width: 992px) {
+  .boys{
+     padding-left: 76px;
+     margin-left: 47px;
+     clip-path: inset(0% 0% 35% 0%);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .boys{
+    padding-left: 0;
+      margin-left: auto;
+      margin-right: auto;
+     clip-path: inset(0% 6% 35% 5%);
+    
+
+  }
+}
+@media only screen and (max-width: 992px) {
+  .trans-text{
+font-size: 20px;
+
+  }
+}
+@media only screen and (max-width: 768px) {
+  .trans-text{
+font-size: 23px;
+
+  }
+}
+
+
